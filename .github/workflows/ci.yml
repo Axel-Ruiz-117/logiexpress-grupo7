@@ -2,9 +2,9 @@ name: Pipeline CI LogiExpress - Validacion de Estados (Grupo 7)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "principal", "main" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "principal", "main" ]
 
 jobs:
   test:
